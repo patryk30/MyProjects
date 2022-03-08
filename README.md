@@ -14,10 +14,10 @@ Detailed project description and report in Polish are in seperate files in 'Data
   The aim of the project was to test the performance of different clusterisations on downloaded and original benchmark sets. Methods used:
   * *K-means* method
   * Hierarchical clustering i.e.
-    ** single linkage
-    ** ward linkage
-    ** complete linkage
-    ** average linkage
+    - single linkage
+    - ward linkage
+    - complete linkage
+    - average linkage
   * Spectral algorithm - implemented by myself
   * DBSCAN algorithm
   * Genie algorithm
