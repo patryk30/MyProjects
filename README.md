@@ -2,7 +2,9 @@
 In this repository I include the most interesting projects I've done during my studies. 
 
 ## 1. Databases project
-  The main aim of the project was to design relational database for the streaming platform which offers access to thousands of movies. Main points of the project:
+Working environment: Microsoft SQL Server Management Studio 2018
+
+The main aim of the project was to design relational database for the streaming platform which offers access to thousands of movies. Main points of the project:
   * Tables creation by SQL code.
   * Introducing indexes in order to improve SQL query performance.
   * Writing several SQl SELECT queries to prepare some reports.
@@ -11,7 +13,9 @@ In this repository I include the most interesting projects I've done during my s
 Detailed project description and report in Polish are in seperate files in 'Databases' folder.
 
 ## 2. Cluster analysis
-  The aim of the project was to test the performance of different clusterisations on downloaded and original benchmark sets. Methods used:
+Working environment: Python - Jupyter notebook / Spyder 
+
+The aim of the project was to test the performance of different clusterisations on downloaded and original benchmark sets. Methods used:
   * *K-means* method
   * Hierarchical clustering i.e.
     - single linkage
