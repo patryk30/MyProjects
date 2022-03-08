@@ -1,2 +1,2 @@
 # MyProjects
-In this repository I include the most interesting projects I did during my studies. 
+In this repository I include the most interesting projects I've done during my studies. 
