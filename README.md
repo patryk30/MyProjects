@@ -7,5 +7,6 @@ In this repository I include the most interesting projects I've done during my s
   * Introducing indexes in order to improve SQL query performance.
   * Writing several SQl SELECT queries to prepare some reports.
   * Preparation of Stored Procedure due to which records with movie viewings older than definded time period are moved to the archive table.
+
 Detailed project description and report in Polish are in seperate files in 'Databases' folder.
 
