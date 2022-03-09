@@ -32,3 +32,10 @@ The effectiveness of the methods was compared using *Fowlkes-Mallows index* and 
 Working environment: RStudio (R programming language, R Markdown)
 
 The project was devoted to the subject of Social Diagnosis from years 2000-2015 (http://www.diagnoza.com/), its aim being to prepare a report which would analyse the research questions posed. Graphs were generated mainly using **dplyr** and **ggplot2** libraries. They show distribution of answers for different questions according to the allocation of respondents to a BMI group (BMI indices were categorized during preprocessing). The report was written using R Markdown and then generated as .pdf file.
+
+## 4. Object-oriented programming - Graph class
+Working environment: Python - Jupyter notebook, Spyder
+
+The aim of the project was to create a Graph class representing graphs, i.e. to create a constructor, appropriate attributes and methods e.g. returning edges, adding edges or vertices, returning graph representation or neighbourhood matrix.
+
+One of the main points was also to implement Kruskal's algorithm for finding the minimum spanning tree of a graph.
