@@ -39,3 +39,8 @@ Working environment: Python - Jupyter notebook, Spyder
 The aim of the project was to create a Graph class representing graphs, i.e. to create a constructor, appropriate attributes and methods e.g. returning edges, adding edges or vertices, returning graph representation or neighbourhood matrix.
 
 One of the main points was also to implement Kruskal's algorithm for finding the minimum spanning tree of a graph.
+
+## 5. VBA - SEIR model implemetation
+Working environment: Visual Basic for Applications - MS Excel
+
+The aim of the project was to select several methods to solve a specific initial problem related to the SEIR-type epidemic development model. In order to solve it, numerical methods for solving differential equations were implemented using code written in VBA. The results were then presented in a graph. More detailed information on the theoretical aspect is presented in a Microsoft Word file.
