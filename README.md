@@ -40,7 +40,7 @@ The aim of the project was to create a Graph class representing graphs, i.e. to 
 
 One of the main points was also to implement Kruskal's algorithm for finding the minimum spanning tree of a graph.
 
-## 5. VBA - SEIR model implemetation
+## 5. VBA - SEIR model implementation
 Working environment: Visual Basic for Applications - MS Excel
 
 The aim of the project was to select several methods to solve a specific initial problem related to the SEIR-type epidemic development model. In order to solve it, numerical methods for solving differential equations were implemented using code written in VBA. The results were then presented in a graph. More detailed information on the theoretical aspect is presented in a Microsoft Word file.
