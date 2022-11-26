@@ -28,7 +28,7 @@ The aim of the project was to test the performance of different clusterisations 
 
 The effectiveness of the methods was compared using *Fowlkes-Mallows index* and *Adjusted Rand index*. The results were visualised on the 2 or 3-dimensional graphs (if dimensions of the datasets weren't greater than 3). 
 
-## 3. Toxic Comments Classification - NLP/ML project
+## 3. Toxic Comments Classification - NLP/ML group project
 Working environment: Python - Jupyter notebook
 
 The aim of the project is to classify toxic comments that have been taken from the editing forum of the English-language Wikipedia. Based on the content of the comments, an effective classifier was created that assigns whether a comment is an insult, a threat or an offensive (multi-label classification). The project milestones:
