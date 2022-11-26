@@ -38,7 +38,7 @@ The aim of the project is to classify toxic comments that have been taken from t
    - Lemmatisation
    - Stemming
    - STOP WORDS removal
- * Text variable vetorisation
+ * Text variable vectorisation
  * Building models based on:
    - Logistic regression
    - One vs Rest Classifier
