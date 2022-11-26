@@ -1,16 +1,14 @@
 # My Projects
 In this repository I include the most interesting projects I've done during my studies. 
 
-## 1. Databases project
-Working environment: Microsoft SQL Server Management Studio 2018
+## 1. F1 results analysis - DWH/BI group project
+Working environment: Visual Studio, Microsoft SQL Server Management Studio, Power BI, Python
 
-The main aim of the project was to design relational database for the streaming platform which offers access to thousands of movies. Main points of the project:
-  * Tables creation by SQL code.
-  * Introducing indexes in order to improve SQL query performance.
-  * Writing several SQl SELECT queries to prepare some reports.
-  * Preparation of Stored Procedure due to which records with movie viewings older than definded time period are moved to the archive table.
-
-Detailed project description and report in Polish are in seperate files in 'Databases' folder.
+The main objective of the project was to provide the architecture and model of storing and processing data in a data warehouse. Then the main priority was to prepare reports using Business Intelligence systems (Power BI in that case), creating appropriate structures using the selected data set of Formula 1 racing results. The project milestones:
+  * Source data preparation - ErgastF1 data downloaded in the form of a relational database, while the weather data was downloaded from the API https://www.visualcrossing.com/ using the Python language.
+  * Data warehouse model design
+  * ETL process - SSIS (SQL Server Integration Services)
+  * Loading the warehouse into a business intelligence system and preparing reports - Microsoft Power BI
 
 ## 2. Cluster analysis
 Working environment: Python - Jupyter notebook, Spyder 
@@ -45,19 +43,30 @@ The aim of the project is to classify toxic comments that have been taken from t
    - GridSearchCV
  * Models' performance evaluation (ROC, accuracy, precision, recall score etc.)
 
-## 4. Social Diagnosis - Data Visualisation
+## 4. Databases project
+Working environment: Microsoft SQL Server Management Studio 2018
+
+The main aim of the project was to design relational database for the streaming platform which offers access to thousands of movies. Main points of the project:
+  * Tables creation by SQL code.
+  * Introducing indexes in order to improve SQL query performance.
+  * Writing several SQl SELECT queries to prepare some reports.
+  * Preparation of Stored Procedure due to which records with movie viewings older than definded time period are moved to the archive table.
+
+Detailed project description and report in Polish are in seperate files in 'Databases' folder.
+
+## 5. Social Diagnosis - Data Visualisation
 Working environment: RStudio (R programming language, R Markdown)
 
 The project was devoted to the subject of Social Diagnosis from years 2000-2015 (http://www.diagnoza.com/), its aim being to prepare a report which would analyse the research questions posed. Graphs were generated mainly using **dplyr** and **ggplot2** libraries. They show distribution of answers for different questions according to the allocation of respondents to a BMI group (BMI indices were categorized during preprocessing). The report was written using R Markdown and then generated as .pdf file.
 
-## 5. Object-oriented programming - Graph class
+## 6. Object-oriented programming - Graph class
 Working environment: Python - Jupyter notebook, Spyder
 
 The aim of the project was to create a Graph class representing graphs, i.e. to create a constructor, appropriate attributes and methods e.g. returning edges, adding edges or vertices, returning graph representation or neighbourhood matrix.
 
 One of the main points was also to implement Kruskal's algorithm for finding the minimum spanning tree of a graph.
 
-## 6. VBA - SEIR model implementation
+## 7. VBA - SEIR model implementation
 Working environment: Visual Basic for Applications - MS Excel
 
 The aim of the project was to select several methods to solve a specific initial problem related to the SEIR-type epidemic development model. In order to solve it, numerical methods for solving differential equations were implemented using code written in VBA. The results were then presented in a graph. More detailed information on the theoretical aspect is presented in a Microsoft Word file.
