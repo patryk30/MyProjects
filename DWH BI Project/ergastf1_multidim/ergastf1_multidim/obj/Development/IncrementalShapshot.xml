@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>ergastf1_multidim</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>eqc2cyGfVeIhtGNr79Gmg56tLrg=20.06.2022 19:56:3320.06.2022 19:56:33</TimeStamp>
+        <ID>
+          <String>Ergast F1 DWH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>aThJLa4Tcrrvu4efm4qTR7HQvDg=20.06.2022 19:56:4520.06.2022 19:56:44</TimeStamp>
+        <ID>
+          <String>Ergast F1 DWH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>0StEXVbZrvFkHXFtCQtCX2TEyeg=22.06.2022 19:16:1420.06.2022 20:12:47</TimeStamp>
+        <ID>
+          <String>Constructors Dimension</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wpfON4zXba93S6G5ugFaAXxYRoI=22.06.2022 19:01:5920.06.2022 20:14:46</TimeStamp>
+        <ID>
+          <String>Date Dimension</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>9iAddpNtXmHZBsb6920NgfWDbJo=22.06.2022 19:01:0020.06.2022 20:16:01</TimeStamp>
+        <ID>
+          <String>Drivers Dimension</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>jkPRBoOCaiiyLaGxVwSy1gZoCxo=22.06.2022 19:16:1420.06.2022 20:16:35</TimeStamp>
+        <ID>
+          <String>Races Dimension</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>SBIP+xFqycddowmVJAT0JpS9t6c=20.06.2022 20:17:0520.06.2022 20:17:05</TimeStamp>
+        <ID>
+          <String>Results Fact</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>ist5fqP4ANf/U1SEgbkoHV/MIz0=22.06.2022 19:01:5920.06.2022 20:17:05VOCMVnlWbRTteP+YdXZVSciDqEQ=20.06.2022 20:17:0520.06.2022 20:17:05</TimeStamp>
+        <ID>
+          <String>Ergast F1 DWH</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>X/XGrFsYk2oBLx6i09fvB9Uhu2k=20.06.2022 19:55:2320.06.2022 19:55:23</TimeStamp>
+      <ID>
+        <String>ergastf1_multidim</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2022-06-22T17:16:17.563333Z</LastDeployed>
+</DeploymentSnapshot>

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SSIS ErgastF1", "SSIS ErgastF1\SSIS ErgastF1.dtproj", "{0E4FAE18-7507-4DB8-84C1-528C95FFDB2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E4FAE18-7507-4DB8-84C1-528C95FFDB2C}.Development|Default.ActiveCfg = Development
+		{0E4FAE18-7507-4DB8-84C1-528C95FFDB2C}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B0B2DE1-BD3D-4C7A-AFFD-A2BEEE92C92B}
+	EndGlobalSection
+EndGlobal

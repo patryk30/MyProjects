@@ -1,0 +1,315 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="0b317064-25f9-4008-9c56-3a5659ad4030" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Races Dimension</ID>
+  <Name>Races Dimension</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3494" scrolltop="-4313" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10028" y="15531" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="RacesDimension" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_RacesDimension" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3494</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4313</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="160150e4-bd34-4bf2-9c98-7901ebd2d4b0">
+    <DataSourceViewID>Ergast F1 DWH</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="46920d75-baf7-43c9-859c-95e6b2cf4a61">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="da24057c-5f8f-4ea8-84f3-f8ce90c02ff6">
+      <ID>Race Id</ID>
+      <Name>Race Id</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e90c437d-840e-4fb1-b076-6809575ef50d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dc8f549a-a4e4-4658-a353-6dcfb8dc682b">
+            <TableID>dbo_RacesDimension</TableID>
+            <ColumnID>RaceId</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="6c11730f-16f7-4473-9ceb-78178c86df21">
+          <AttributeID>Round</AttributeID>
+          <Name>Round</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6dcb483a-2f65-44d6-a153-caef125ed25f">
+          <AttributeID>Race Name</AttributeID>
+          <Name>Race Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c085862e-8a3e-4b58-8338-faa0778f4848">
+          <AttributeID>Circuit Name</AttributeID>
+          <Name>Circuit Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ae39675e-58af-459f-8475-7302e554bec0">
+          <AttributeID>Location</AttributeID>
+          <Name>Location</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f7937130-1251-495a-8b9e-2cd120636857">
+          <AttributeID>Country</AttributeID>
+          <Name>Country</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f2bfee60-e90d-4b5d-a641-6980e50091d6">
+          <AttributeID>Lattitude</AttributeID>
+          <Name>Lattitude</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="298f41bf-370c-4bb9-86a4-6b92e3cbb9fb">
+          <AttributeID>Longitude</AttributeID>
+          <Name>Longitude</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="06eb0316-1d2e-4179-871b-4267b8f9707f">
+          <AttributeID>Altitude</AttributeID>
+          <Name>Altitude</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="570cccf3-d620-47b8-b26d-780b46efc9c9">
+          <AttributeID>Race Date Id</AttributeID>
+          <Name>Race Date Id</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cdf620d5-8ee0-400d-b879-4e2136de21c8">
+      <ID>Round</ID>
+      <Name>Round</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="afb61062-7510-4d62-ad39-c9b1c883cdc7">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6acb3ec4-7dfb-42ec-b5c2-f12e24c6ee9f">
+            <TableID>dbo_RacesDimension</TableID>
+            <ColumnID>Round</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f6ac0d3d-a234-4f0e-a917-2c590e46ab1b">
+      <ID>Race Name</ID>
+      <Name>Race Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="66414f7f-1b7a-4376-99a3-dc5fa565c935">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="145f5187-0470-4084-9b97-248d073e3ae5">
+            <TableID>dbo_RacesDimension</TableID>
+            <ColumnID>RaceName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b7609c29-6003-45b1-b293-54790f36fdaa">
+      <ID>Circuit Name</ID>
+      <Name>Circuit Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ff5c5f4b-fdc3-498c-82c0-6919759f0b8a">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="819b3bcd-c607-47a5-b78a-ea3dc121e362">
+            <TableID>dbo_RacesDimension</TableID>
+            <ColumnID>CircuitName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="772694f1-4371-4e3c-8066-4cea859f8ed4">
+      <ID>Location</ID>
+      <Name>Location</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c1300066-7e46-41e6-944b-a2e4cae68b4c">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0b554170-0b36-4a81-8eb0-e507cda01be1">
+            <TableID>dbo_RacesDimension</TableID>
+            <ColumnID>Location</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cbc74af0-de14-42a8-9469-961ade92ea05">
+      <ID>Country</ID>
+      <Name>Country</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0af2918b-b483-4259-ac84-7f3017607581">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b936c933-7acf-4fb8-b6cf-620b16f74893">
+            <TableID>dbo_RacesDimension</TableID>
+            <ColumnID>Country</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f3e1bc76-7d8f-46ad-89f8-f41f4ddbf521">
+      <ID>Lattitude</ID>
+      <Name>Lattitude</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e2aa3216-5d06-4214-bf31-8a6cdf65b6ab">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0bb73cb9-a07b-4762-80ba-690604f23f20">
+            <TableID>dbo_RacesDimension</TableID>
+            <ColumnID>Lattitude</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3f120276-db04-4534-80c4-1eeea20e9a53">
+      <ID>Longitude</ID>
+      <Name>Longitude</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="55c1c2e1-9613-4756-8bf2-d649eefe8de6">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d48767d8-34fa-46e2-98fa-a3d858d38ce9">
+            <TableID>dbo_RacesDimension</TableID>
+            <ColumnID>Longitude</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2cfd291c-a9b0-4cff-b7f0-d9ca38e9143e">
+      <ID>Altitude</ID>
+      <Name>Altitude</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="868724f6-3a7f-4a97-b931-55258331d954">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="321058f7-12c3-45b4-acea-dadd01d5a47d">
+            <TableID>dbo_RacesDimension</TableID>
+            <ColumnID>Altitude</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5e5f4c50-c1c2-49b1-a044-9643b6fde73b">
+      <ID>Race Date Id</ID>
+      <Name>Race Date Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3805757d-f32a-43a9-a41e-505d2ae350f3">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ed5ecf07-c5ee-4b9d-8215-a40f32b1ca7f">
+            <TableID>dbo_RacesDimension</TableID>
+            <ColumnID>RaceDateId</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="488c5d26-1d68-45f7-a3ff-117e11c02500">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="01be8ec6-1773-48f5-b132-25402ea67e47">
+          <ID>Country</ID>
+          <Name>Country</Name>
+          <SourceAttributeID>Country</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="51f27ac7-083d-43ba-9927-b84a70c8003d">
+          <ID>Circuit Name</ID>
+          <Name>Circuit Name</Name>
+          <SourceAttributeID>Circuit Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="25994764-f868-4bd3-8324-31ce5c030aba">
+          <ID>Race Name</ID>
+          <Name>Race Name</Name>
+          <SourceAttributeID>Race Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="72ee6a8e-86a0-48fb-8094-b46644049465">
+          <ID>Race Date Id</ID>
+          <Name>Race Date Id</Name>
+          <SourceAttributeID>Race Date Id</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

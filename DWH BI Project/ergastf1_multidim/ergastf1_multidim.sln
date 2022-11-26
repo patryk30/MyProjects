@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "ergastf1_multidim", "ergastf1_multidim\ergastf1_multidim.dwproj", "{4ABF5C48-3A49-4025-896D-A69C852EE849}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4ABF5C48-3A49-4025-896D-A69C852EE849}.Development|Default.ActiveCfg = Development
+		{4ABF5C48-3A49-4025-896D-A69C852EE849}.Development|Default.Build.0 = Development
+		{4ABF5C48-3A49-4025-896D-A69C852EE849}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CC95AB9-7B55-4824-89A2-16A68481725D}
+	EndGlobalSection
+EndGlobal
